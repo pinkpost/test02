@@ -1,0 +1,202 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #EAEDF2;
+  color: #333333;
+  font-size: 15px;
+  line-height: 2;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+  margin-top: 0;
+}
+
+img {
+  vertical-align:bottom;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #3c3c3c;
+  text-decoration: none;
+}
+
+
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  width: 100%;
+  height: 62px;
+  margin: 0 auto;
+  background-color: #58A9EF;
+}
+
+.inner{
+  width: 1000px;
+  margin: 0 auto;
+}
+.logo {
+  float: left;
+  color: #ffffff;
+
+}
+
+.global-nav {
+  float: right;
+
+}
+
+.global-nav li {
+  float: left;
+  padding: 15px 10px;
+
+  font-size: 15px;
+  list-style: none;
+  font-family:Helvetica, Arial, "BIZ UDGothic", "Hiragino Kaku Gothic ProN", "Hiragino Sans", YuGothic, "Yu Gothic", メイリオ, Meiryo, sans-serif;
+
+}
+
+.global-nav li a {
+  color: #ffffff;
+}
+
+.global-nav li a:hover {
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+
+.ic{
+  color: #ffffff;
+}
+.warp{
+  margin:0 auto;
+}
+
+.container{
+  display: table;
+  width: 1000px;
+  height: 200px;
+  margin:0 auto;
+  margin-top: 30px;
+}
+
+.box{
+  display: table-cell;
+  color: #fff;
+}
+.box-content{
+  padding:90px 30px;
+}
+
+.box-content h2{
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.box-content p{
+  font-size: 17px;
+  font-weight: 400;
+  margin: 9px 0;
+}
+.apple img{
+
+  height: 426px;
+  vertical-align: middle;
+}
+
+.orange {
+  width: 500px;
+  height: 426px;
+  background-color:#93D0F0;
+  vertical-align: top;
+}
+
+.btn-square-shadow {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #5BA9F7;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  font-size: 18px;
+  margin: 9px 0;
+}
+.box-content a:hover{
+  text-decoration: none;
+}
+.btn-square-shadow:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+  border-bottom: none;
+}
+.main{
+  width:1000px;
+  margin: 0 auto;
+  display: flex;
+}
+.card{
+  background-color: #ffffff;
+  width:300px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.12), 0 2px 3px 0 rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+.card img{
+  width: 100%;
+height: auto;
+border: 0;
+vertical-align: middle;
+}
+.card h2{
+  font-size: 18px;
+  text-align: center;
+  padding-top: 40px;
+}
+.card-info{
+  padding-bottom: 25px;
+}
+
+.main-content{
+  margin-top: 100px;
+  width: 670px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tab{
+  width: 300px;
+  background-color: #ffffff;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 15px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.12), 0 2px 3px 0 rgba(0, 0, 0, 0.22);
+}
+.tab p{
+  margin: 0;
+  padding:11px 0;
+
+}
+.side-bar{
+  margin-top: 100px;
+  width: 300px;
+
+}
+.side-bar input{
+  width:285px;
+  height: 45px;
+}
